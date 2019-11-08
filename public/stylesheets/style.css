@@ -1,0 +1,41 @@
+img
+{
+	max-width: 100%;
+}
+
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p
+{
+	line-height: 24px;
+}
+
+.container
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+	margin: 0 0 40px 0;
+	padding: 0;
+}
+
+#mainNav ul li
+{
+	display: inline;
+	margin-right: 15px;
+
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Chuck's Used Cars</h1>
+      <% include partials/menu%>
+      <section id="intro"><p>Welcome to Chuck's we have the largest selection of premium used vehicles.</p>
+        <h3>Reseller Opportunities</h3>
+        <p>We also offer a sales partnership program. Use our public API at /api to access our inventory and place it on your site.</p>
+
+        <ul>
+          <% cars.forEach(function(car){ %>
+          <li><%= car.name %> - <%= car.description %></li>
+          <%});%>
+        </ul>
+      </section>
+      <section>
+
+      </section>
+    
+    </div>
+  </body>
+</html>
